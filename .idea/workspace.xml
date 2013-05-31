@@ -42,7 +42,7 @@
     <file path="$PROJECT_DIR$/../matrix-exchange-main/war/src/main/webapp/home/templates/screen/home/BrandBrowse.vm" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1355830999092" ignored="false" />
     <file path="/BrandBrowse.vm" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1355830828554" ignored="false" />
     <file path="$PROJECT_DIR$/../matrix-exchange-main/war/src/main/webapp/home/templates/screen/home/brandBrowse2.vm" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1355881316448" ignored="false" />
-    <file path="/GenerateCode.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1356088105302" ignored="false" />
+    <file path="/GenerateCode.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1369980362549" ignored="false" />
     <file path="$PROJECT_DIR$/../matrix-exchange-main/server/src/main/java/com/taobao/matrix/qz/exchange/service/online/impl/CategoryBrandServiceImpl.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1356319776704" ignored="false" />
     <file path="/CategoryBrandServiceImpl.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1355990090022" ignored="false" />
     <file path="$PROJECT_DIR$/../matrix-exchange-main/item/src/main/java/com/taobao/matrix/qz/common/enumconstanse/ibatis/BrandHeadEnum.java" changelist="c26ffa55-7f81-44b1-a7d8-28982f73e51a" time="1355989889019" ignored="false" />
@@ -280,6 +280,7 @@
   </component>
   <component name="DebuggerManager">
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -314,7 +315,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -333,10 +333,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sqlMap.vm" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="sqlMap.vm" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ibatis/sqlMap.vm">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="20" selection-start="1219" selection-end="1219" vertical-scroll-proportion="0.8172043">
+            <state line="37" column="20" selection-start="1219" selection-end="1219" vertical-scroll-proportion="-0.6896552">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GenerateCode.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/GenerateCode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="18" selection-start="391" selection-end="391" vertical-scroll-proportion="0.29739776">
               <folding />
             </state>
           </provider>
@@ -345,7 +354,7 @@
       <file leaf-file-name="test.vm" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ibatis/test.vm">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="5" selection-start="892" selection-end="892" vertical-scroll-proportion="-8.275862">
+            <state line="21" column="5" selection-start="892" selection-end="892" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -354,7 +363,7 @@
       <file leaf-file-name="VipLotterySqlMap.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../matrix-main-2/base/src/main/java/com/taobao/matrix/vip/dao/ibatis/VipLotterySqlMap.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="1753" selection-end="1753" vertical-scroll-proportion="0.0">
+            <state line="25" column="0" selection-start="1603" selection-end="1603" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -388,7 +397,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/generateCode/awardOnlineGroup/AwardOnlineGroupDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/ibatis/query.vm" />
         <option value="$PROJECT_DIR$/src/generateCode/awardOnlineGroup/AwardOnlineGroupDAOTest.java" />
         <option value="$PROJECT_DIR$/../matrix-exchange-main/base/src/main/java/com/taobao/matrix/vip/dao/ibatis/VipPromotionSqlMap.xml" />
@@ -404,6 +412,7 @@
         <option value="$PROJECT_DIR$/src/main/java/ibatis/test.vm" />
         <option value="$PROJECT_DIR$/../matrix-main-2/base/src/main/java/com/taobao/matrix/vip/dao/ibatis/VipLotterySqlMap.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ibatis/sqlMap.vm" />
+        <option value="$PROJECT_DIR$/src/main/java/GenerateCode.java" />
       </list>
     </option>
   </component>
@@ -415,8 +424,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-238" />
-    <option name="y" value="161" />
+    <option name="x" value="-6" />
     <option name="width" value="1296" />
     <option name="height" value="748" />
   </component>
@@ -448,6 +456,21 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generateCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generateCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -596,34 +619,19 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="generateCode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="generateCode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="dynamic.classpath" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -761,19 +769,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -800,6 +795,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -867,7 +875,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-238" y="161" width="1296" height="748" extended-state="0" />
+    <frame x="-6" y="0" width="1296" height="748" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -882,7 +890,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936978" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Analysis" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -897,6 +904,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899868" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936978" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -960,32 +968,54 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/GenerateCode.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ibatis/sqlMap.vm">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="13" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0">
+        <state line="37" column="20" selection-start="1219" selection-end="1219" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ibatis/test.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="5" selection-start="892" selection-end="892" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../matrix-main-2/base/src/main/java/com/taobao/matrix/vip/dao/ibatis/VipLotterySqlMap.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="1603" selection-end="1603" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ibatis/Dsdf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="29" selection-start="161" selection-end="187" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tool/PropertyObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ibatis/ibatisDAO.vm">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="2" selection-end="2" vertical-scroll-proportion="-1.3793104">
-          <folding />
-        </state>
+        <state line="2" column="0" selection-start="2" selection-end="2" vertical-scroll-proportion="-1.3793104" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ibatis/interfaceDAO.vm">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="10" selection-start="851" selection-end="851" vertical-scroll-proportion="-22.758621">
-          <folding />
-        </state>
+        <state line="33" column="10" selection-start="851" selection-end="851" vertical-scroll-proportion="-22.758621" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ibatis/do.vm">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="281" selection-end="281" vertical-scroll-proportion="-11.034483">
-          <folding />
-        </state>
+        <state line="16" column="0" selection-start="281" selection-end="281" vertical-scroll-proportion="-11.034483" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tool/Tool.java">
@@ -1011,14 +1041,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ibatis/test.vm">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="5" selection-start="892" selection-end="892" vertical-scroll-proportion="-8.275862">
+        <state line="21" column="5" selection-start="892" selection-end="892" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../matrix-main-2/base/src/main/java/com/taobao/matrix/vip/dao/ibatis/VipLotterySqlMap.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="1753" selection-end="1753" vertical-scroll-proportion="0.0">
+        <state line="25" column="0" selection-start="1603" selection-end="1603" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1032,7 +1062,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ibatis/sqlMap.vm">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="20" selection-start="1219" selection-end="1219" vertical-scroll-proportion="0.8172043">
+        <state line="37" column="20" selection-start="1219" selection-end="1219" vertical-scroll-proportion="-0.6896552">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GenerateCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="18" selection-start="391" selection-end="391" vertical-scroll-proportion="0.29739776">
           <folding />
         </state>
       </provider>

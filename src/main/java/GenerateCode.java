@@ -14,6 +14,7 @@ import java.util.Map;
  */
 public class GenerateCode {
     public static void main(String[] args) {
+        //test git
         Velocity.init();
         Template template = Velocity.getTemplate("src\\main\\java\\codeTemplate.vm");
         VelocityContext context = new VelocityContext();
